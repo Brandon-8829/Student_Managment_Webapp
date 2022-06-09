@@ -1,0 +1,26 @@
+<html>
+	<header>
+		
+	</header>
+	<body>
+		<div>
+			<!-- need to pull student name from database and update the header -->
+			<h1>Student Name</h1>
+			<!-- div to hold basic student information -->
+			<!-- <div>
+				<p>Student #</p>
+				<p>Student Email:</p>
+				<p>Home Room Teacher</p>
+			</div> -->
+			<div id="info_block"></div>
+		</div>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script type="text/javascript">                        
+	    	$(document).ready( function() { 
+	        	$('#info_block').load('student_info.php'); 
+	    }); 
+		</script>
+	</body>
+	 
+</html>
